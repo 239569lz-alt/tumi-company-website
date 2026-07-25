@@ -49,11 +49,13 @@ export default function Careers() {
                       </div>
                     </div>
 
-                    <a href="mailto:2675013690@qq.com" className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-cyan-100">
-                      立即投递
-                      <ArrowRight size={16} />
-                    </a>
-                  </div>
+                   <a
+  				href="#contact"
+  				className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-cyan-100"
+				>
+  				立即投递
+  				<ArrowRight size={16} />
+			  </a>                  </div>
                 </motion.article>
               ))}
             </div>
