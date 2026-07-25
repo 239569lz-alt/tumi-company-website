@@ -22,8 +22,8 @@ export default function Navbar() {
           <Image
     		src="/images/logo.png"
     		alt="TUMI Studio Logo"
-    		width={100}
-    		height={52}
+    		width={200}
+    		height={100}
     		className="rounded-xl"
 		/>
           <span>
