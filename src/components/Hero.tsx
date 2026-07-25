@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Play, Sparkles } from "lucide-react";
-
+import Image from "next/image";
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden pb-24 pt-36 md:pb-32 md:pt-44">
@@ -44,9 +44,9 @@ export default function Hero() {
 
           <div className="mt-12 grid max-w-2xl grid-cols-3 gap-5 border-t border-slate-200 pt-7">
             {[
-              ["60M+", "累计访问"],
+              ["100M+", "累计访问"],
               ["12+", "核心成员"],
-              ["8", "已发布体验"]
+              ["40+", "已发布体验"]
             ].map(([value, label]) => (
               <div key={label}>
                 <strong className="block text-2xl font-black text-slate-950 md:text-3xl">{value}</strong>
@@ -77,17 +77,25 @@ export default function Hero() {
 
                 <div className="relative mx-auto grid size-56 place-items-center rounded-[3rem] border border-white/20 bg-white/10 shadow-2xl backdrop-blur md:size-72">
                   <div className="absolute inset-5 rounded-[2.2rem] border border-white/15" />
-                  <span className="text-8xl drop-shadow-2xl md:text-9xl">🏝️</span>
+                  <div className="relative h-full w-full overflow-hidden rounded-[2.2rem]">
+  				<Image
+    				src="/images/Top.png"
+    				alt="游戏封面"
+    				fill
+    				sizes="(max-width: 768px) 224px, 288px"
+    				className="object-cover"
+  				/>
+			  </div>
                 </div>
 
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-100">
-                    Open World Adventure
+                    Incremental Simulator
                   </p>
-                  <h2 className="mt-2 text-4xl font-black">Skybound Isles</h2>
+                  <h2 className="mt-2 text-4xl font-black">Get Fat to Break Tape 🍗</h2>
                   <div className="mt-5 flex gap-3 text-sm">
-                    <span className="rounded-full bg-white/15 px-4 py-2 backdrop-blur">32M+ Visits</span>
-                    <span className="rounded-full bg-white/15 px-4 py-2 backdrop-blur">94% Rating</span>
+                    <span className="rounded-full bg-white/15 px-4 py-2 backdrop-blur">34M+ Visits</span>
+                    <span className="rounded-full bg-white/15 px-4 py-2 backdrop-blur">98% Rating</span>
                   </div>
                 </div>
               </div>
