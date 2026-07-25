@@ -30,14 +30,13 @@ export default function Games() {
               <div className={`relative aspect-[16/11] bg-gradient-to-br ${game.accent} p-6`}>
                 <div className="absolute inset-0 bg-grid bg-[size:26px_26px] opacity-20" />
                 <div className="relative flex h-full items-center justify-center">
-                  <div className="relative h-full w-full overflow-hidden">
-  				<Image
-   				src={game.image}
-    				alt={game.title}
-    				fill
-    				sizes="(max-width: 1024px) 100vw, 33vw"
-    				className="object-cover transition duration-500 group-hover:scale-105"
-  				/>
+                  <div className="relative aspect-[16/11] overflow-hidden rounded-3xl">
+    				<Image
+        			src={game.image}
+        			alt={game.title}
+        			fill
+        			className="object-cover transition duration-500 group-hover:scale-105"
+    				/>
 			</div>
                 </div>
               </div>
