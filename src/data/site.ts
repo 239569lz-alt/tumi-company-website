@@ -6,7 +6,7 @@ export const games = [
     visits: "33.9M+",
     rating: "98%",
     accent: "from-cyan-400 via-blue-500 to-indigo-600",
-    image: "/images/game1.png",
+    image: "/images/game1.jpg",
     url: "https://www.roblox.com/games/75568173037446/Get-Fat-to-Break-Tape"
   },
   {
@@ -16,7 +16,7 @@ export const games = [
     visits: "5.2M+",
     rating: "89%",
     accent: "from-fuchsia-500 via-violet-500 to-blue-600",
-    image: "/images/game2.png",
+    image: "/images/game2.jpg",
     url: "https://www.roblox.com/games/118206654988883/Fight-in-the-fish-market"
   },
   {
