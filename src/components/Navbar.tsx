@@ -24,14 +24,8 @@ export default function Navbar() {
     		alt="TUMI Studio Logo"
     		width={200}
     		height={100}
-    		className="rounded-xl"
+    		className="object-contain"
 		/>
-          <span>
-            <strong className="block text-base tracking-[0.18em] text-slate-950">TUMI</strong>
-            <span className="block text-[10px] font-semibold tracking-[0.28em] text-brand-600">
-              GAME STUDIO
-            </span>
-          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
