@@ -1,30 +1,33 @@
 export const games = [
   {
-    title: "Skybound Isles",
-    category: "开放世界冒险",
-    description: "探索漂浮群岛、解锁飞行坐骑，与好友共同挑战动态事件和世界首领。",
-    visits: "32M+",
-    rating: "94%",
+    title: "Get Fat to Break Tape 🍗",
+    category: "增量模拟器",
+    description: "一款吃东西增胖打破胶带的增量模拟器，画风精美，玩法有趣。",
+    visits: "33.9M+",
+    rating: "98%",
     accent: "from-cyan-400 via-blue-500 to-indigo-600",
-    icon: "☁️"
+    icon: "☁️",
+    url: "https://www.roblox.com/games/75568173037446/Get-Fat-to-Break-Tape"
   },
   {
-    title: "Neon Drift",
-    category: "竞速与社交",
-    description: "在霓虹都市中改装赛车、参与联赛，并打造属于你的车手社交空间。",
-    visits: "18M+",
-    rating: "92%",
+    title: "Fight in the fish market",
+    category: "战场与格斗",
+    description: "在鱼市里买鱼增加资产，获取最强大的鱼来与其他玩家战斗。",
+    visits: "5.2M+",
+    rating: "89%",
     accent: "from-fuchsia-500 via-violet-500 to-blue-600",
-    icon: "🏎️"
+    icon: "🏎️",
+    url: "https://www.roblox.com/games/118206654988883/Fight-in-the-fish-market"
   },
   {
-    title: "Mythic Defense",
-    category: "塔防与养成",
-    description: "收集英雄、自由组合阵容，在不断变化的地图中守护远古核心。",
-    visits: "11M+",
-    rating: "96%",
+    title: "+1 Zombie Power Per Click",
+    category: "增量模拟器",
+    description: "闯关，感染，让更多人变成僵尸",
+    visits: "1.7M+",
+    rating: "93%",
     accent: "from-amber-400 via-orange-500 to-rose-500",
-    icon: "🛡️"
+    icon: "🛡️",
+     url: "https://www.roblox.com/games/85327604819401/1-Zombie-Power-Per-Click"
   }
 ];
 
