@@ -89,7 +89,7 @@ export default function Contact() {
 
             <div className="mt-9 grid gap-4">
               <a
-                href="mailto:hello@tumistudio.com"
+                href="mailto:2675013690@qq.com"
                 className="group flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-1 hover:border-brand-300 hover:shadow-soft"
               >
                 <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-brand-100 text-brand-700">
