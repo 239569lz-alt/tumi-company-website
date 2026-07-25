@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const links = [
   ["首页", "#home"],
@@ -18,9 +19,13 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/60 bg-white/75 backdrop-blur-xl">
       <div className="container-shell flex h-20 items-center justify-between">
         <a href="#home" className="flex items-center gap-3" aria-label="TUMI Studio 首页">
-          <span className="grid size-11 place-items-center rounded-2xl bg-brand-500 text-lg font-black text-white shadow-lg shadow-brand-500/25">
-            T
-          </span>
+          <Image
+    		src="/images/logo.png"
+    		alt="TUMI Studio Logo"
+    		width={100}
+    		height={52}
+    		className="rounded-xl"
+		/>
           <span>
             <strong className="block text-base tracking-[0.18em] text-slate-950">TUMI</strong>
             <span className="block text-[10px] font-semibold tracking-[0.28em] text-brand-600">
