@@ -6,7 +6,7 @@ export const games = [
     visits: "33.9M+",
     rating: "98%",
     accent: "from-cyan-400 via-blue-500 to-indigo-600",
-    icon: "☁️",
+    image: "/images/game1.png",
     url: "https://www.roblox.com/games/75568173037446/Get-Fat-to-Break-Tape"
   },
   {
@@ -16,7 +16,7 @@ export const games = [
     visits: "5.2M+",
     rating: "89%",
     accent: "from-fuchsia-500 via-violet-500 to-blue-600",
-    icon: "🏎️",
+    image: "/images/game2.png",
     url: "https://www.roblox.com/games/118206654988883/Fight-in-the-fish-market"
   },
   {
@@ -26,7 +26,7 @@ export const games = [
     visits: "1.7M+",
     rating: "93%",
     accent: "from-amber-400 via-orange-500 to-rose-500",
-    icon: "🛡️",
+    image: "/images/game3.png",
      url: "https://www.roblox.com/games/85327604819401/1-Zombie-Power-Per-Click"
   }
 ];

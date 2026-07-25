@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 import { games } from "@/data/site";
+import Image from "next/image";
 
 export default function Games() {
   return (
@@ -29,9 +30,15 @@ export default function Games() {
               <div className={`relative aspect-[16/11] bg-gradient-to-br ${game.accent} p-6`}>
                 <div className="absolute inset-0 bg-grid bg-[size:26px_26px] opacity-20" />
                 <div className="relative flex h-full items-center justify-center">
-                  <div className="grid size-40 place-items-center rounded-[2.5rem] border border-white/20 bg-white/15 text-7xl shadow-2xl backdrop-blur transition duration-500 group-hover:scale-110 group-hover:-rotate-3">
-                    {game.icon}
-                  </div>
+                  <div className="relative h-full w-full overflow-hidden">
+  				<Image
+   				src={game.image}
+    				alt={game.title}
+    				fill
+    				sizes="(max-width: 1024px) 100vw, 33vw"
+    				className="object-cover transition duration-500 group-hover:scale-105"
+  				/>
+			</div>
                 </div>
               </div>
 
