@@ -12,7 +12,7 @@ export default function Games() {
         <SectionTitle
           eyebrow="Our Games"
           title="为不同玩家，创造不同类型的快乐"
-          description="以下内容为官网演示数据。你可以在 src/data/site.ts 中替换游戏名称、访问量、评分和介绍。"
+          description="从增量模拟器到竞技与社交体验，我们持续探索 Roblox 平台上的更多可能。"
           align="center"
         />
 
