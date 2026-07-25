@@ -33,22 +33,22 @@ export const games = [
 
 export const roles = [
   {
-    title: "Roblox Gameplay Programmer",
-    type: "全职 / 远程",
+    title: "Roblox游戏开发",
+    type: "全职",
     summary: "负责核心玩法、战斗、任务与多人联机系统开发。",
     skills: ["Luau", "Roblox Studio", "网络同步", "性能优化"]
   },
   {
-    title: "3D Environment Artist",
-    type: "全职 / 混合办公",
-    summary: "搭建高质量场景、地形、建筑与模块化环境资产。",
-    skills: ["Blender", "PBR", "场景构图", "Roblox Optimization"]
+    title: "游戏策划",
+    type: "全职",
+    summary: "鉴于Roblox游戏的特殊性,本岗位并不局限于某一细分第境划工种,而要求全面承担游戏策划的各种工作",
+    skills: ["游戏系统设计及策划案编写", "游戏关卡设计", "游戏表格配置", "游戏测试"]
   },
   {
-    title: "UI / UX Designer",
-    type: "项目制 / 远程",
-    summary: "设计适合 PC、移动端与主机平台的游戏界面体验。",
-    skills: ["Figma", "交互设计", "视觉规范", "动效设计"]
+    title: "游戏美术动作",
+    type: "全职",
+    summary: "负责游戏美术动作和地图设计,能使用3d软件完成低聚模型设计(美式卡通和lowpoly为主)",
+    skills: ["游戏美术", "动作"]
   }
 ];
 

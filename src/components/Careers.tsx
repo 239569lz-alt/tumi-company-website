@@ -18,7 +18,7 @@ export default function Careers() {
                 description="我们寻找热爱游戏、重视细节并愿意持续学习的伙伴。欢迎程序、美术、设计和运营人才加入。"
               />
               <p className="mt-7 text-sm leading-7 text-slate-400">
-                投递邮箱：careers@tumistudio.com
+                投递邮箱：2675013690@qq.com
                 <br />
                 请附上简历、作品集和你最喜欢的一款 Roblox 游戏。
               </p>
@@ -49,8 +49,8 @@ export default function Careers() {
                       </div>
                     </div>
 
-                    <a href="mailto:careers@tumistudio.com" className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-cyan-100">
-                      申请职位
+                    <a href="mailto:2675013690@qq.com" className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-cyan-100">
+                      立即投递
                       <ArrowRight size={16} />
                     </a>
                   </div>
